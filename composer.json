@@ -1,8 +1,8 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
+    "name": "dynamikaweb/yii2-vuejs",
+    "description": "dependency to use Vue progressive JavaScript Framework with Yii2.",
     "type": "yii2-extension",
-    "keywords": ["dynamika", "yii2"],
+    "keywords": ["dynamika", "yii2", "vuejs"],
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -17,17 +17,19 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-vuejs/issues",
+        "source": "http://github.com/dynamikaweb/yii2-vuejs"
     },
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "npm-asset/vue": "2.*",
+        "npm-asset/vue--cli-service": "*"
     },
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\": "src"
+            "dynamikaweb\\vuejs\\": "src"
         }
     },
     "repositories": [
